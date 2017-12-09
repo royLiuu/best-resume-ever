@@ -1,70 +1,42 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: 刘
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 毅
 
 birth:
-  year: 1990
-  location: New York
+  year: 1989
+  location: 上海
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: 博泰悦臻
+  position: java工程师
+  timeperiod: 2013 - 2015
+  description: 车联网系统应用服务业务后端开发。
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: 哔哩哔哩视频弹幕网
+  position: java工程师
+  timeperiod: 2015 - 2017
+  description: 负责PGC部门功能设计开发。业务逻辑评估，设计，实现：spring mvc，mybatis ，redis，memcached，hbased等。PGC系统数据分析系统：spring boot，Jstorm。PGC系统熔断，策略设计，系统设计，实现。PGC部门代码规范制定code review。PGC系统微应用化，rpc化，策略制定，实施。
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: 本科
+  timeperiod: 2007 - 2011
+  description: 上海大学 计算机科学与技术
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Java
+- name: Python
+- name: Mysql
+- name: Redis
+- name: Memecached
+- name: Hbase
+- name: JStorm
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: royliuu@email.com
+  phone: 13621848717
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
-lang: en
+lang: cn
 `
